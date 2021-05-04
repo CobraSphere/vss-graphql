@@ -1,0 +1,24 @@
+{
+  "vehicle": {
+    "versionVSS": {
+      "major": 2,
+      "minor": 0,
+      "patch": 0
+    },
+    "drivetrain": {
+      "internalCombustionEngine": {
+        "engine": {
+          "speed": {}
+        }
+      },
+      "transmission": {
+        "gear": {}
+      },
+      "fuelSystem": {
+        "tankCapacity": {},
+        "level": {},
+        "instantConsumption": {}
+      }
+    }
+  }
+}

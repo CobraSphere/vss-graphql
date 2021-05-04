@@ -1,0 +1,34 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node', '/usr/local/bin/npm', 'start' ]
+2 info using npm@6.14.4
+3 info using node@v13.12.0
+4 verbose run-script [ 'prestart', 'start', 'poststart' ]
+5 info lifecycle VSS_Example@1.0.0~prestart: VSS_Example@1.0.0
+6 info lifecycle VSS_Example@1.0.0~start: VSS_Example@1.0.0
+7 verbose lifecycle VSS_Example@1.0.0~start: unsafe-perm in lifecycle true
+8 verbose lifecycle VSS_Example@1.0.0~start: PATH: /usr/local/lib/node_modules/npm/node_modules/npm-lifecycle/node-gyp-bin:/usr/src/data_feeder/node_modules/.bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+9 verbose lifecycle VSS_Example@1.0.0~start: CWD: /usr/src/data_feeder
+10 silly lifecycle VSS_Example@1.0.0~start: Args: [ '-c', 'node vssfeeder.js' ]
+11 silly lifecycle VSS_Example@1.0.0~start: Returned: code: 1  signal: null
+12 info lifecycle VSS_Example@1.0.0~start: Failed to exec start script
+13 verbose stack Error: VSS_Example@1.0.0 start: `node vssfeeder.js`
+13 verbose stack Exit status 1
+13 verbose stack     at EventEmitter.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/npm-lifecycle/index.js:332:16)
+13 verbose stack     at EventEmitter.emit (events.js:315:20)
+13 verbose stack     at ChildProcess.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/npm-lifecycle/lib/spawn.js:55:14)
+13 verbose stack     at ChildProcess.emit (events.js:315:20)
+13 verbose stack     at maybeClose (internal/child_process.js:1026:16)
+13 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:286:5)
+14 verbose pkgid VSS_Example@1.0.0
+15 verbose cwd /usr/src/data_feeder
+16 verbose Linux 5.4.0-65-generic
+17 verbose argv "/usr/local/bin/node" "/usr/local/bin/npm" "start"
+18 verbose node v13.12.0
+19 verbose npm  v6.14.4
+20 error code ELIFECYCLE
+21 error errno 1
+22 error VSS_Example@1.0.0 start: `node vssfeeder.js`
+22 error Exit status 1
+23 error Failed at the VSS_Example@1.0.0 start script.
+23 error This is probably not a problem with npm. There is likely additional logging output above.
+24 verbose exit [ 1, true ]

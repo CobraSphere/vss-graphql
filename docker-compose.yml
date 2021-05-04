@@ -16,4 +16,5 @@ services:
             context: ./vss-feeder
         volumes:
             - ./db:/usr/shared/db/
+            - ./var/log:/root/.npm/_logs
         network_mode: host
